@@ -1,0 +1,12 @@
+service: circle-ci-cron
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  hello:
+    handler: handler.hello
+
+    events:
+      - schedule: rate(1 hour)
