@@ -1,6 +1,6 @@
 # circleci-cron-serverless
 
-A simple project that allow scheduled build for the circleci free tier.  
+A simple project that allow scheduled builds for the circleci free tier.  
 
 Here what happens.
 
